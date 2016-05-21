@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: box-border;
+    position: relative
+}
+
+body {
+    background-color: #f2f2f2;
+    overflow-x: hidden
+}
+
+.header_top {
+    width: 34%;
+    height: 30px;
+    background-color: white;
+    padding-top:5px;
+    padding-left: 900px;
+    border: 2px;
+    border-style: solid;
+    border-bottom-color: #a6a6a6;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+.header_top a {
+    color: #595959;
+    text-decoration: none
+}
+
+.header_top  a:nth-child(1) {
+    padding-right: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-right-color: #a6a6a6
+}
+
+.header_top  a:nth-child(2) {
+    margin-left: 7px        
+}
+
+.header_main {
+   width: 70%;
+   height: 60px;
+   padding: 35px 0 15px 300px
+}
+
+
+.header_main p:nth-child(1){
+    color: #0066cc;
+    font-size: 2em;
+    line-height: 30px
+}
+
+.header_main p:nth-child(2) {
+    color: #666666;
+    font-size: 12.4px
+}
+
+.search {
+    position: absolute;
+    top: 35px;
+    left: 800px
+}
+
+.search input {
+    margin-right: 20px;
+    padding: 2px 0;
+}
+
+.button_search {
+    color: white;
+    padding: 2px 5px 5px 2px;
+    border-radius: 10px;
+    border: none;
+    background: #064fc9;
+    vertical-align:middle;
+    position: relative;
+    outline: none
+}
+
+.button_search:hover {
+    background-color: #210072
+}
+
+main {
+}
+
+.navbar {
+    width: 100%;
+    height: 30px;
+    background-color: #353298;
+    padding-left: 140px
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    width: 80px;
+    height:  30px;
+    padding: 5px 15px 10px 15px;
+    position: relative;
+    top: 5px
+}
+
+
+.navbar a:hover {
+    background-color: #210072
+}
+
+.pic {
+    min-height: 100%;
+    height: 313px;
+    background-image: url("images/images/back_02.png");
+    background-size: 100% 313px 
+}
+
+.build_image{
+    padding-left: 700px;
+    padding-top: 80px
+}
+
+
+
+.arti {
+    width: 70%;
+    height: 300px;
+    padding-top: 10px;
+    padding-left: 300px
+}
+
+.notice-text {
+    color: #de0050;
+}
+
+.notice-text > a {
+    text-decoration: none;
+    color: #6269b2
+}
+
+footer { 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    border: 2px;
+    border-style: solid;
+    border-top-color: #a6a6a6
+}
+
+footer p {
+    text-align: center;
+    color: #595959
+}
